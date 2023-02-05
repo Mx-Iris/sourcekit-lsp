@@ -25,6 +25,7 @@ let package = Package(
         ),
         .library(
             name: "SourceKitD",
+            type: .dynamic,
             targets: ["SourceKitD"]
         ),
     ],
